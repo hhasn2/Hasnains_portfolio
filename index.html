@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap" rel="stylesheet">
+        <style>
+            html{
+                scroll-behavior: smooth;
+            }
+            nav{
+                position: fixed;
+                width: 100%;
+                top: 0;
+                z-index: 1000;
+            }
+            .body{
+                margin: 0;
+                padding: 0;
+            }
+            .bar{
+                padding: 20px 0px;
+                background-color:#FEFDDF ;
+                align-items: center;
+                display: flex;
+                justify-content: space-between;
+            }
+            .logo{
+              font-size: 40px;
+              margin-left: 30px;
+              color: #73A5CA;
+              font-weight: bolder;
+            }
+            .hero-max{
+                height: 100vh;
+                background-image: url(./Hasnain1.jpg);
+                background-size: cover;
+                position: relative;
+            }
+            .hero-body{
+                height: 100%;
+                width: 100%;
+                background-color: rgba(0, 0, 0, 0.6);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .tittle-100{
+                margin: 0;
+                padding: 20px 0px;
+                color: #FEFDDF;
+                font-size: 90px;
+                
+            }
+            span{
+                color: #FEFDDF;
+                font-family: 'Lavishly Yours', cursive;
+            }
+            .hal{
+                padding: 10px 30px;
+                font-size: 20px;
+                border-radius: 20px;
+                background-color:#E87F24 ;
+                color: #FEFDDF;
+                border: none;
+                text-decoration: none;
+                transition-duration: 300ms;
+            }
+            .hal:hover{
+                background-color: #73A5CA;
+                color: #FEFDDF;
+            }
+            .nav-link a{
+                color:#E87F24;
+                text-decoration: none;
+                margin-right: 30px;
+                font-size: 20px;
+            }
+            .nav-link a:hover{
+                color: #73A5CA;
+                transition-duration: 300ms;
+            }
+            .About-me{
+            padding: 0px 60px;
+            font-size: 30px;
+            color: #73A5CA;
+            height: 100%;
+            margin: 60px 50px;
+            border-radius:10px ;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #E87F24;
+            color: #FEFDDF;
+            }
+            .about-head{
+                color: #E87F24;
+                padding: 20px 40px;
+                background-color:#FEFDDF;
+                border-radius: 25px;
+                
+            }
+            .Education{
+                padding: 0px 60px;
+            font-size: 30px;
+            color: #73A5CA;
+            height: 100%;
+            margin: 60px 50px;
+            border-radius:10px ;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #73A5CA;
+            color: #FEFDDF;
+            }
+            .Education-head{
+                color: #73A5CA;
+                padding: 20px 40px;
+                background-color: #FEFDDF;
+                border-radius: 25px;
+            }
+            .My-Dream{
+                 padding: 0px 60px;
+            font-size: 30px;
+            color: #73A5CA;
+            height: 100%;
+            margin: 60px 50px;
+            border-radius:10px ;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #FFC81E;
+            color: #FEFDDF;
+            }
+            .My-Dream-head{
+               color: #FFC81E;
+                padding: 20px 40px;
+                background-color: #FEFDDF;
+                border-radius: 25px;
+            }
+            .My-Family{
+                padding: 0px 60px;
+            font-size: 30px;
+            color: #73A5CA;
+            height: 100%;
+            margin: 60px 50px;
+            border-radius:10px ;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #E87F24;
+            color: #FEFDDF;
+            }
+            .My-Family-head{
+                color: #E87F24;
+                padding: 20px 40px;
+                background-color:#FEFDDF;
+                border-radius: 25px;
+            }
+            .my-friends{
+                 padding: 0px 60px;
+            font-size: 30px;
+            color: #73A5CA;
+            height: 100%;
+            margin: 60px 50px;
+            border-radius:10px ;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: #73A5CA;
+            color: #FEFDDF;
+            }
+            .my-friends-head{
+                color: #73A5CA;
+                padding: 20px 40px;
+                background-color: #FEFDDF;
+                border-radius: 25px;
+            }
+            .contact-info{
+            font-size: 30px;
+            background-color: #FFC81E;
+            margin: 0px 50px;
+            border-radius: 10px;
+            padding: 20px 50px;
+            }
+        </style>
+    </head>
+    <body class="body">
+        <!-- navbar -->
+         <nav class="bar">
+            <div class="logo">Hasnain</div>
+        <div class="nav-link">
+        <a href="#About_me">About Me</a>
+        <a href="#Education">Education</a>
+        <a href="#My_Dream">My Dream</a>
+        <a href="#My_Family">My Family</a>
+        <a href="#my-friends"> About my Friends</a>
+        <a href="#contact-info">Contact Info</a>
+        <a href="#">restart button</a>
+            </div>
+         </nav>
+         <!-- herosection -->
+          <div>
+            <div class="hero-max">
+                <div class="hero-body">
+                  <p class="tittle-100">Hi, I'm <span>Hasnain</span></p>
+                  <a class="hal" href="#About_me">Let's Explore</a>
+                </div>
+            </div>
+          </div>
+                <!-- About me -->
+                 <section id="About_me">
+                    <div>
+                    <div class="About-me">
+                        <h1 class="about-head">About Me</h1>
+                         <p>Hi there, my full name is MD Abu Hasnain but people call me by my last name which is Hasnain also do not worry if your wondering if they tease me by that name but that is what I like to be called.
+                             I am 9 years old and a coder but my dream is to become a Pilot.
+                              For now I am a student and I am almost about to completing my 2 webpage.
+                              My favorite sport is soccer, i can even beat a team full of a grade older than me.
+                              My favorite car brand is Toyota Alferd.
+                              My favorite game is FarCry 3 along with Minecraft being my second favorite video game.
+                               If you want to know where I am from then I am about to tell you, I am from Bangladesh and born in a Australia hospital also raised in Australia just when I was 2 years old.
+                                My IQ right now is 145 and I am the second smartest for the whole entire grade 4s!
+                                 If you want to know about my education then move down to the next part.
+                                 </p>
+                    </div>
+                 </div>
+                </section>
+                 <!-- Education -->
+                  <section id="Education">
+                    <div>
+                    <div class="Education">
+                        <h1  class="Education-head">My Education</h1>
+                        <p>I am currently in grade 4 and past prep,  grade 1, grade 2 and  grade 3.
+                             I am the senior of a primary school.
+                              I am in the school: Robertson Staten School and as you know this is a primary school up to grade 6, but sadly I am leaving Australia for 3 years and I will be back in 2029 in grade 7.
+                               I will be missing my friends and importantly my best friend which I will introduce in the part of this website called About my Friends.
+                        </p>
+                    </div>
+                  </div>
+                </section>
+                <!-- My Dream -->
+                 <section id="My_Dream">
+                    <div>
+                        <div class="My-Dream">
+                          <h1 class="My-Dream-head">My Dream</h1>
+                          <p>Hello there, this time we are talking about....MY DREAM.
+                            You are probably wondering if it is a thing when i grow up then you are definetly right!
+                            Well i really want to be a pilot and not a co pilot or a domestic travel pilot, i want to be a international travel pilot that travels everywhere around the world.
+                            Well i am not waiting till collage to practice because i can start already from grade 5 in my country which is Bangladesh.
+                            In my country you can do it you just have to pass a real hard test to join and after 3 years a final test.
+                            If you pass it then you can be whatever you want to be when you grow up.
+                            Remember just before you do the join test study hard especially if you hate it!
+                          </p>
+                        </div>
+                    </div>
+                </section>
+                 <!-- My Family -->
+                  <section id="My_Family">
+                   <div>
+                    <div class="My-Family">
+                       <h1  class="My-Family-head">My Family</h1>
+                       <p>In this part we will be talking about my Family.
+                        In my family i have my little sister that is 3 years old so she dosn't go to my school yet.
+                        In my family i have my mom who is only 3 years smaller from my dad.
+                        In my family i have my dad who is 56 or 57 years old and goes to university.
+                        In my family i have my grandma who is old and so is my gandpa.
+                        In my family i have my drandpa who is also old and has retired from work.
+                        In my family i have my grandmother who is old and is my dads mom.
+                        In my family i have my grandfather who is also old ans is my dads dad.
+                       </p>
+                    </div>
+                   </div>
+                  </section>
+                  <!-- my friends -->
+                   <section id="my-friends">
+                    <div>
+                        <div class="my-friends">
+                            <h1 class="my-friends-head">About my friends</h1>
+                         <p>If you are wondering that if i have friends or not i do.
+                            I will only be saying 4 friends and 1 best friend.
+                            My best friend is Corey Zhao and we call each other bro but mainly we call all of our friends bro.
+                            The next one is Cooper Cox where we both heve fun and laugh, his best friend is Axel Judson.
+                            The next one is Patrick Matthews who is quite silly and funny.
+                            The last one is Markus So who used to be my 1 best friend but he now is my second best friend.
+                         </p>
+                    </div>
+                </div>
+        </section>
+        <!-- Contact Info -->
+         <section id="contact-info">
+            <div>
+             <div class="contact-info">
+               <h1>Contact Info</h1>
+               <p>I was the one who made this website but my uncle helped me like he was bug fixing.
+                   To contact me mail me with this email    hhasn2@eq.edu.au
+               </p>
+             </div>
+             </div>
+         </section>
+    </body>
+</html>
